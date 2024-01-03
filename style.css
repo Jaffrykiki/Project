@@ -1,49 +1,26 @@
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
-
-
-.container {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 1100px;
-}
-
 .container .card {
-    width: 320px;
-    margin: 20px;
-    padding: 40px 30px;
-    background: #ebf5fc;
-    border-radius: 40px;
-    box-shadow: -6px -6px 20px rgba(255,255,255,1),6px 6px 20px rgba(0,0,0,0.1);
-}
-
-.container .card:hover {
-    box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5),inset 6px 6px 20px rgba(0,0,0,0.05);
+    display: flex;
+    width: 100%;
+    max-width: 600px; /* ปรับขนาดของแต่ละข่าว */
+    margin-bottom: 20px;
 }
 
 .container .card .imgBx {
-    position: relative;
-    text-align: center;
-}
-
-.container .card .imgBx img {
-    max-width: 120px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* เพิ่ม position: relative; เพื่อให้สามารถใช้ absolute positioning ได้ */
 }
 
 .container .card .contentBx {
-    position: relative;
-    margin-top: 20px;
-    text-align: center;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* จัดให้ข้อมูลอยู่กึ่งกลาง */
 }
 
 .container .card .contentBx h2 {
@@ -51,10 +28,13 @@
     font-weight: 700;
     font-size: 1.4em;
     letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center; /* จัดให้ข้อความอยู่กึ่งกลาง */
 }
 
 .container .card .contentBx p {
     color: #3a9bdc;
+    text-align: center; /* จัดให้ข้อความอยู่กึ่งกลาง */
 }
 
 .container .card .contentBx a {
@@ -66,29 +46,28 @@
     font-size: 16px;
     text-decoration: none;
     box-shadow: -4px -4px 15px rgba(255,255,255,1),4px 4px 15px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .container .card .contentBx a:hover {
     box-shadow: inset -4px -4px 10px rgba(255,255,255,0.5),inset 4px 4px 10px rgba(0,0,0,0.1);
 }
 
-.container .card a:hover span {
-    display: block;
-    transform: scale(0.98);
+.container .card .contentBx h2,
+.container .card .contentBx p,
+.container .card .contentBx a {
+    position: relative;
+    z-index: 1; /* ให้ข้อความอยู่ในระดับที่สูงกว่ารูปภาพ */
 }
 
-.container .card:hover .imgBx,.container .card:hover .contentBx {
-    transform: scale(0.98);
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 10px; /* ปรับมุมของรูปภาพ */
+    position: absolute; /* ให้รูปภาพอยู่ในตำแหน่ง absolute */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* จัดให้รูปภาพอยู่ตรงกลาง */
+    z-index: 0;
 }
-
-.credit a {
-    text-decoration: none;
-    color: #00acee;
-    font-weight: 800;
-}
-
-.credit {
-    text-align: center;
-    font-family: Verdana,Geneva,Tahoma,sans-serif;
-}
-
