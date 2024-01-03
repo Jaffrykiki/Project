@@ -1,4 +1,6 @@
 .bg-blue {
     background-color: #0067ce; /* หรือใส่สีน้ำเงินฟ้าที่คุณต้องการ */
   }
-  
+  nav {
+    font-family: 'Noto Sans Thai', sans-serif;
+  }
