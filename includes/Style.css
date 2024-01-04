@@ -166,3 +166,10 @@ nav ul li a {
  line-height: 85px;
  margin-bottom: 25px;
 }
+.fa-newspaper-o {
+  position: static;
+}
+.fa-university {
+  position: absolute;
+  right: 30%;
+}
