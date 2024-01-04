@@ -1,11 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        #background_footer {
+            background-color: #4393F0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #row_footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            /* border: 1px solid red; */
+        }
+
+        #col_footer {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+
+        #col2_footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 1.5rem;
+            /* border: 1px solid red; */
+        }
+
+        #col2_footer h1 {
+            font-size: 22px;
+            color: #FFFFFF;
+        }
+
+        #row2_footer {
+            display: flex;
+            text-align: center;
+            margin-top: 2rem;
+            /* border: 1px solid red; */
+        }
+
+        #row2_footer h1 {
+            padding-right: 4rem;
+            font-size: 26px;
+            color: #FFFFFF;
+        }
+
+        #form_footer {
+            margin-top: 1rem;
+            padding-left: 9rem;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid red; */
+        }
+
+        #form_footer #col_input {
+            display: flex;
+            justify-content: end;
+            /* border: 1px solid red; */
+        }
+
+        #form_footer #input {
+            width: 20rem;
+            border-radius: 80px;
+            border: 1px solid #FFF;
+
+        }
+
+        #form_footer #submit {
+            width: 10rem;
+            border-radius: 80px;
+            color: #4393F0;
+            background-color: #FFFFFF;
+            border: 1px solid #FFF;
+            transition: all 0.5s ease-out;
+
+        }
+
+        #form_footer #submit:hover {
+            width: 10rem;
+            border-radius: 80px;
+            color: #FFFFFF;
+            background-color:transparent; 
+            border: 1px solid #FFF;
+
+        }
+
+        #row_careers ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 2rem;
+        }
+
+        #row_careers ul li {
+            padding-right: 2rem;
+            font-size: 22px;
+        }
+
+        #row_careers ul li a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        #row_credit {
+            display: flex;
+            text-align: center;
+        }
+
+        #row_credit h1 {
+            padding-right: 4rem;
+            font-size: 22px;
+            color: #FFFFFF;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container-fluid">
+    </div>
+    <footer>
+        <div class="container-fluid" id="background_footer">
+            <div class="row" id="row_footer">
+                <div class="col-md-3 border-end" id="col_footer">
+                    <img src="logo.png" alt="" height="100">
+                </div>
+                <div class="col-md-3" id="col2_footer">
+                    <h1>Virtual Class</h1>
+                    <h1>for Zoom</h1>
+                </div>
+            </div>
+            <div class="row" id="row2_footer">
+                <h1>Subscribe to get our Newsletter</h1>
+            </div>
+            <div class="row" id="form_footer">
+                <div class="col-md-3" id="col_input">
+                    <input class="form-control" id="input" type="text" placeholder="Your Email"
+                        aria-label="default input example">
+                </div>
+                <div class="col-md-3 ">
+                    <input class="btn" id="submit" type="submit" value="Subscribe">
+                </div>
+            </div>
+            <div class="row" id="row_careers">
+                <ul>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="row" id="row_credit">
+                <h1>© 2021 Class Technologies Inc.</h1>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
 </html>

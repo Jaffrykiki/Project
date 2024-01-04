@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
- 
-    <title>Index</title>
+    <link rel="stylesheet" href="./includes/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>E-cop</title>
 </head>
 <body>
-    <!-- ตำแหน่งที่ต้องการให้แสดง Navbar -->
-    <iframe src="includes/navbar.html" width="100%" height="300px" frameborder="0"></iframe>
+  <div class="containner">
+    <nav>
+        <img src="image/logo_alt.png" class="logo" >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Couress</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <button class="btn_nav">Login</button>
+        <button class="btn_nav">SignUp</button>
+    </nav>
+
+    <div class="content">
+        <h1>Studying Online is <br> now much easier</h1>
+        <p>TOTC is an interesting platform that will <br> teach you in more an interactive way</p>
+    </div>
+
+</div>
     <div class="w3-row w3-padding w3-border w3-gray" style="margin:auto">
       <div class="w3-card" style="width:35%;">
         <h2>Cybersecurity News</h2>
@@ -49,5 +72,8 @@
           </div>
         </div>
       </div>
+      <footer>
+        <iframe src="includes/footer.html" width="100%" height="300px" frameborder="0"></iframe>
+    </footer>
 </body>
 </html>
