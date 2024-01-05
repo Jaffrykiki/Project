@@ -259,8 +259,6 @@ nav ul li a {
 /*container-new แยกจากของเพื่อน เพื่อไม่ให้ดึง BG อันบนมาด้วย*/
 .containner-new {
   width: 100%;
-  min-height: 100vh;
- 
   background-size: cover;
   background-position: center;
   padding: 10px 8%;
