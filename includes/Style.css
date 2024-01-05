@@ -168,3 +168,245 @@ nav ul li a {
   color: #696984;
 }
 
+/*CSS AUTO*/
+
+.what-is-TOTC {
+  text-align: center;
+  background-color: white;
+}
+.div {
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 79.2px;
+  white-space: nowrap;
+}
+
+.overlap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+.overlap-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-wrapper {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.48px;
+  line-height: 1.5; /* ปรับ line-height ตามความต้องการ */
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: pre-line;
+  display: block;
+}
+
+.text-wrapper-2 {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.48px;
+  line-height: 32px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/*Read more*/
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+ 
+}
+.read-more-button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2; /* ตั้งค่า z-index เพื่อให้ปุ่มอยู่ด้านบนของรูปภาพ */
+}
+
+.image-container:hover .read-more-button {
+  opacity: 1;
+}
+
+/*container-new แยกจากของเพื่อน เพื่อไม่ให้ดึง BG อันบนมาด้วย*/
+.containner-new {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+
+/* box_cer1_jaf */
+.box_cer1 {
+  width: 1441px;
+  height: 512px;
+}
+
+.box_cer1 .you-can-do-with-TOTC_cer1 {
+  position: static;
+  width: 1447px;
+  height: 512px;
+  top: 0;
+  left: 0;
+}
+
+.box_cer1 .overlap_cer1 {
+  position: relative;
+  width: 1441px;
+  height: 512px;
+}
+
+.box_cer1 .overlap-group_cer1 {
+  position: absolute;
+  width: 680px;
+  height: 129px;
+  top: 51px;
+  left: 0;
+}
+
+.box_cer1 .ellipse_cer1 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 0;
+  left: 0;
+  background-color: #4393f0;
+  border-radius: 36.5px;
+}
+
+.box_cer1 .everything-you-can_cer1 {
+  position: absolute;
+  width: 655px;
+  top: 13px;
+  left: 25px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 57.6px;
+}
+
+.box_cer1 .text-wrapper_cer1 {
+  color: #2f327d;
+}
+
+.box_cer1 .span_cer1 {
+  color: #4393f0;
+}
+
+.box_cer1 .div_cer1 {
+  position: absolute;
+  width: 1416px;
+  height: 512px;
+  top: 0;
+  left: 25px;
+}
+
+.box_cer1 .p_cer1 {
+  position: absolute;
+  width: 730px;
+  top: 210px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #696983;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  line-height: 43.2px;
+}
+
+.box_cer1 .rectangle_cer1 {
+  width: 231px;
+  height: 231px;
+  top: 281px;
+  left: 1162px;
+  background-color: #4393f0;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.box_cer1 .rectangle-2_cer1 {
+  width: 138px;
+  height: 138px;
+  top: 0;
+  left: 691px;
+  background-color: #23bdee;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.box_cer1 .group_cer1 {
+  position: absolute;
+  width: 705px;
+  height: 471px;
+  top: 20px;
+  left: 711px;
+  background-image: url(/image/confident-teacher-explaining-lesson-pupils-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box_cer1 .img_cer1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 283px;
+  left: 619px;
+}
+
+.box_cer1 .text-wrapper-2_cer1 {
+  position: absolute;
+  top: 412px;
+  left: 25px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #696983;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 39.6px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+.image_cer1 {
+  width: 705px;
+  height: 471px;
+}
+.image_cer1 .confident-teacher_cer1 {
+  position: fixed;
+  width: 705px;
+  height: 471px;
+  top: 570px;
+  left: 20px;
+  object-fit: cover;
+}
+
+
