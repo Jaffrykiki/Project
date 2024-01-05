@@ -12,80 +12,84 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="stylepage2.css">
     <style>
-        *{
+        /* * {
             padding: 0px;
             margin: 0px;
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
         }
-        #maincontent{
+
+         #maincontent {
             background-color: rgb(180, 209, 253);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 40rem;
 
-        }
-        .row{
-            /* border: 1px solid red; */
+        } */
+        
+        /*
+
+        #rowtext {
+            border: 1px solid red;
             display: flex;
-            justify-content: center;
-        }
-        #maincontent .row .col-md3{
-            padding-right: 20rem;
-            margin-left: 10rem;
-            /* border: 1px solid red; */
+            justify-content:center;
+            align-items: center;
             
         }
-        .row #img{
-            /* border: 1px solid red; */
-            margin-right: 10rem;
-        }
-        .row #img img{
-            /* border: 1px solid red; */
-            margin-right: 5rem;
-            border-radius: 1rem;
-        }
-        #text1{
+
+        #rowimg {
+            border: 1px solid red;
+            width: 779px;
+            height: 526.88px;
+        } */
+
+
+
+        /* #text1 {
             display: flex;
         }
-        #text1 h1{
+
+        #text1 h1 {
             font-size: 24px;
             font-weight: 400;
         }
-        #h12{
+
+        #h12 {
             color: #4393F0;
             margin-left: 8px;
             font-weight: 700;
         }
-        #text2 h1{
+
+        #text2 h1 {
             color: #2F327D;
             font-size: 44px;
             font-weight: 600;
         }
-        #text2 p{
+
+        #text2 p {
             color: #696984;
             font-size: 24px;
             font-weight: 400;
         }
-        #text3 a{
+
+        #text3 a {
             width: 11rem;
             background-color: rgba(67, 147, 240, 0.87);
             color: #fff;
             font-size: 16px;
             font-weight: 700;
-            
-        }
 
+        } */
     </style>
 
 </head>
 
 <body>
     <div class="container-fluid" id="maincontent">
-        <div class="row">
+        <div class="row" id="rowtext">
             <div class="col-md3" id="text1">
                 <h1>By Themadbrains in</h1>
                 <h1 id="h12">inspiration</h1>
@@ -97,8 +101,8 @@
             </div>
             <div class="col-md3" id="text3"><a href="#" type="button" class="btn">Start learning now</a></div>
         </div>
-        <div class="row">
-            <div class="col md3" id="img"><img src="./image/darkweb.png" alt="darkweb"></div>
+        <div class="row" id="rowimg">
+            <div class="col md3" id="img"><img src="./image/darkweb.png" alt="darkweb" width="100%" height="100%"></div>
         </div>
     </div>
 </body>
