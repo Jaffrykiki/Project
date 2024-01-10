@@ -1,0 +1,45 @@
+.box {
+    width: 1920px;
+    height: 1268px;
+  }
+  .box .rectangle {
+    position: fixed;
+    width: 1920x;
+    height: 1270px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  .image {
+    width: 719px;
+    height: 382px;
+  }
+  .image .rectangle{
+    position: fixed;
+    width: 719px;
+    height: 382px;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .label {
+    width: 197px;
+    height: 45px;
+  }
+
+  .label .text-wrapper{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    line-height: normal;
+
+
+
+  }
+  
