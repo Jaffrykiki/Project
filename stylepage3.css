@@ -57,9 +57,7 @@
     height: auto; /* ทำให้ความสูงปรับตามอัตราส่วนของรูปภาพ */
     display: block; /* ทำให้รูปภาพเป็น block element */
     object-position: center; /* จัดวางรูปภาพตรงกลางของ .box */
-    margin: 10px 0; /* ระยะห่างด้านบนและด้านล่างของรูปภาพ */
-    margin-left: 150px; /* ปรับตำแหน่งจากด้านซ้าย  */
-    border: 1px solid #ccc; /* เพิ่มเส้นขอบรอบรูปภาพ */
+    margin: 0 auto; /* ระยะห่างด้านบนและด้านล่างของรูปภาพ */
     border-radius: 8px; /* เพิ่มขอบมนของรูปภาพ */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงารอบรูปภาพ */
 }
@@ -105,8 +103,8 @@
     margin-bottom: 10px; /* ระยะห่างด้านล่างของข้อความ */
 }
 .related-news.left a {
-    align-self: flex-start; /* จัดให้ลิงก์ไปทางด้านซ้าย */
     margin-top: 10px; /* ระยะห่างด้านบนของลิงก์ */
+    margin-right: 200px;
     display: flex;
     align-items: center;
     text-decoration: none; /* ลบเส้นใต้ลิงก์ */
@@ -147,8 +145,8 @@
     margin-bottom: 10px; /* ระยะห่างด้านล่างของข้อความ */
 }
 .related-news.right a {
-    align-self: flex-start; /* จัดให้ลิงก์ไปทางด้านซ้าย */
     margin-top: 10px; /* ระยะห่างด้านบนของลิงก์ */
+    margin-right: 200px;
     display: flex;
     align-items: center;
     text-decoration: none; /* ลบเส้นใต้ลิงก์ */
