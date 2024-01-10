@@ -164,3 +164,7 @@
     color: #0077ff; /* สีข้อความจำนวนผู้เข้าชม */
 }
 
+* {
+    font-family: 'Noto Sans Thai', sans-serif;
+  }
+
