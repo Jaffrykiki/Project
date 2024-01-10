@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylepage3.css">
+    <title>News_Detail</title>
+</head>
+<body>
+
+    <!-- รูปภาพของข่าวนั้นๆ -->
+    <div class="box">
+        <div class="group">
+            <div class="overlap-group">
+                <img class="rectangle" src="image/blob.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- หัวข้อข่าว -->
+    <div class="news-container">
+        <h1 class="news-headline">8220 Gang Exploiting Oracle WebLogic Server Vulnerability to Spread Malware</h1>
+        <p class="news-date">January 10, 2024</p>
+    </div>
+
+    <!-- เนื้อหาข่าว -->
+    <div class="news-content">
+        <p>The threat actors associated with the 8220 Gang have been observed exploiting a high-severity flaw in Oracle WebLogic Server to propagate their malware.
+            The security shortcoming is CVE-2020-14883 (CVSS score: 7.2), a remote code execution bug that could be exploited by authenticated attackers to take over susceptible servers.
+            "This vulnerability allows remote authenticated attackers to execute code using a gadget chain and is commonly chained with CVE-2020-14882 (an authentication bypass vulnerability also affecting Oracle Weblogic Server) or the use of leaked, stolen, or weak credentials," Imperva said in a report published last week.</p>
+            <p>The 8220 Gang has a history of leveraging known security flaws to distribute cryptojacking malware. Earlier this May, the group was spotted utilizing another shortcoming in Oracle WebLogic servers (CVE-2017-3506, CVSS score: 7.4) to rope the devices into a crypto mining botnet.
+                Recent attack chains documented by Imperva entail the exploitation of CVE-2020-14883 to specially craft XML files and ultimately run code responsible for deploying stealer and coin mining malware such as Agent Tesla, rhajk, and nasqa.</p>
+                 <img class="rectangle_new_1" src="image/image-26.png" alt="">
+                 <p>"The group appears to be opportunistic when selecting their targets, with no clear trend in country or industry," Imperva security researcher Daniel Johnston said.
+                    Targets of the campaign include healthcare, telecommunications, and financial services sectors in the U.S., South Africa, Spain, Columbia, and Mexico.
+                    "The group relies on simple, publicly available exploits to target well-known vulnerabilities and exploit easy targets to achieve their objectives," Johnston added. "While considered unsophisticated, they are constantly evolving their tactics and techniques to evade detection."</p>
+    </div>
+    <!-- เส้น -->
+   <hr>
+
+<!-- ข่าวที่เกี่ยวข้อง  -->
+   <h2>Related Blog</h2>
+
+   <!-- เนื้อหาข่าวที่เกี่ยวข้องอื่น ๆ -->
+   <div class="related-news-container">
+
+    <div class="related-news left">
+        <img src="image/rectangle-32-1.png" alt="">
+        <p>New Rugmi Malware Loader Surges with Hundreds of Daily Detections</p>
+        <p1>A new malware loader is being used by threat actors to deliver a wide range of information stealers such as Lumma Stealer...</p1>
+        <a href="#">Read more
+        <span class="icon">📰</span> <!-- ใส่ไอคอนข่าว -->
+        <span class="views">1,234 views</span> <!-- ใส่จำนวนผู้เข้าชม -->
+        </a>
+    </div>
+    
+    <div class="related-news right">
+        <img src="image/rectangle-32.png" alt=""> 
+        <p>Cloud Atlas' Spear-Phishing Attacks Target Russian Agro and Research Companies</p>
+        <p1>The threat actor referred to as Cloud Atlas has been linked to a set of spear-phishing attacks on Russian enterprises...</p1>
+        <a href="#">Read more
+        <span class="icon">📰</span> <!-- ใส่ไอคอนข่าว -->
+        <span class="views">1,234 views</span> <!-- ใส่จำนวนผู้เข้าชม -->
+        </a>
+    </div>
+</div>
+    
+</body>
+</html>

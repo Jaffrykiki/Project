@@ -1,0 +1,171 @@
+/* box */
+.rectangle {
+    width: 100%; /* ทำให้รูปภาพเต็มความกว้างของ .box */
+    height: auto; /* ทำให้ความสูงปรับตามอัตราส่วนของรูปภาพ */
+    object-fit: cover; /* ทำให้รูปภาพเต็มขนาดและตัดต่อไปตามขอบ .box */
+    object-position: center; /* จัดวางรูปภาพตรงกลางของ .box */
+}
+
+
+/* หัวข้อข่าว */
+.news-headline {
+    font-size: 48px; /* ปรับขนาดตัวอักษร */
+    text-decoration: underline; /* เพิ่มเส้นใต้ */
+    color: #2f327d; /* เปลี่ยนสีข้อความเป็นสีแดง  */
+    margin-left: 50px; /* ปรับตำแหน่งจากด้านซ้าย  */
+}
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.news-date {
+    font-size: 16px; /* ขนาดฟ้อน */
+    color: #696983; /* สี*/
+    margin-top: 2px; /* ระยะห่างจากข้อความหัวข้อข่าว */
+    margin-left: 55px; /* ปรับตำแหน่งจากด้านซ้าย  */
+}
+
+
+/* เนื้อหาข่าว */
+.news-content {
+    font-size: 36px; /* ปรับขนาดตัวอักษร */
+    line-height: 1.5; /* ปรับระยะห่างระหว่างบรรทัด */
+    color: #696983; /* เปลี่ยนสีข้อความ */
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของเนื้อหาข่าว */
+}
+
+.news-content p {
+    margin-bottom: 50px; /* ระยะห่างด้านล่างของแต่ละย่อหน้า */
+    margin-left: 130px; /* ปรับตำแหน่งจากด้านซ้าย  */
+}
+
+.news-content strong {
+    font-weight: bold;
+    color: #ff0000; /* สีข้อความที่เน้น */
+}
+
+.news-content a {
+    color: #007bff; /* สีลิงก์ */
+    text-decoration: underline; /* เพิ่มเส้นใต้ลิงก์ */
+}
+
+/* รูปในหน้าข่าว*/
+.rectangle_new_1 {
+    max-width: 100%; /* ทำให้รูปภาพไม่เกินความกว้างของพื้นที่ที่ปรากฏ */
+    height: auto; /* ทำให้ความสูงปรับตามอัตราส่วนของรูปภาพ */
+    display: block; /* ทำให้รูปภาพเป็น block element */
+    object-position: center; /* จัดวางรูปภาพตรงกลางของ .box */
+    margin: 10px 0; /* ระยะห่างด้านบนและด้านล่างของรูปภาพ */
+    margin-left: 150px; /* ปรับตำแหน่งจากด้านซ้าย  */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบรอบรูปภาพ */
+    border-radius: 8px; /* เพิ่มขอบมนของรูปภาพ */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงารอบรูปภาพ */
+}
+
+
+/* ข่าวที่เกี่ยวข้อง */
+
+.h2{
+    font-family: "poppins-Medium";
+}
+
+.related-news-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.related-news {
+    width: 50%;
+}
+
+/* ด้านซ้าย  */
+.related-news.left {
+    display: flex;
+    flex-direction: column; /* จัดเรียงแนวตั้ง */
+    align-items: center; /* จัดให้รูปอยู่ตรงกลางตามแนวตั้ง */
+}
+
+.related-news.left img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของรูปภาพ */
+}
+.related-news.left p {
+    font-size: 16px; /* กำหนดขนาดตัวอักษร */
+    line-height: 1; /* กำหนดระยะห่างระหว่างบรรทัด */
+    color: #252641; /* กำหนดสีข้อความ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของข้อความ */
+}
+.related-news.left p1 {
+    font-size: 16px; /* กำหนดขนาดตัวอักษร */
+    line-height: 1; /* กำหนดระยะห่างระหว่างบรรทัด */
+    color: #696983; /* กำหนดสีข้อความ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของข้อความ */
+}
+.related-news.left a {
+    align-self: flex-start; /* จัดให้ลิงก์ไปทางด้านซ้าย */
+    margin-top: 10px; /* ระยะห่างด้านบนของลิงก์ */
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+    color: #696983; /* สีข้อความลิงก์ */
+}
+.related-news.left a .icon {
+    margin-left: 450px; /* ระยะห่างของไอคอนและข้อความ */
+    font-size: 20px; /* ปรับขนาดของไอคอน */
+}
+
+.related-news.left a .views {
+    margin-left: 10px; /* ระยะห่างของจำนวนผู้เข้าชมและข้อความ */
+    color: #0077ff; /* สีข้อความจำนวนผู้เข้าชม */
+}
+
+/* ด้านขวา */
+.related-news.right {
+    display: flex;
+    flex-direction: column; /* จัดเรียงแนวตั้ง */
+    align-items: center; /* จัดให้รูปอยู่ตรงกลางตามแนวตั้ง */
+}
+
+.related-news.right img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของรูปภาพ */
+}
+.related-news.right p {
+    font-size: 16px; /* กำหนดขนาดตัวอักษร */
+    line-height: 1; /* กำหนดระยะห่างระหว่างบรรทัด */
+    color: #252641; /* กำหนดสีข้อความ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของข้อความ */
+}
+.related-news.right p1 {
+    font-size: 16px; /* กำหนดขนาดตัวอักษร */
+    line-height: 1; /* กำหนดระยะห่างระหว่างบรรทัด */
+    color: #696983; /* กำหนดสีข้อความ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของข้อความ */
+}
+.related-news.right a {
+    align-self: flex-start; /* จัดให้ลิงก์ไปทางด้านซ้าย */
+    margin-top: 10px; /* ระยะห่างด้านบนของลิงก์ */
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+    color: #696983; /* สีข้อความลิงก์ */
+}
+.related-news.right a .icon {
+    margin-left: 450px; /* ระยะห่างของไอคอนและข้อความ */
+    font-size: 20px; /* ปรับขนาดของไอคอน */
+}
+
+.related-news.right a .views {
+    margin-left: 10px; /* ระยะห่างของจำนวนผู้เข้าชมและข้อความ */
+    color: #0077ff; /* สีข้อความจำนวนผู้เข้าชม */
+}
+
+
+
+
+
+
