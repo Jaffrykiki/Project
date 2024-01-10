@@ -69,7 +69,7 @@
 
 }
 
-/* readingblog */
+/* readingblog////////////////////////////////////////////////////////////////////////////////////// */
 
 #readblog {
     /* border: 1px solid red; */
@@ -83,7 +83,8 @@
     /* border: 1px solid rgb(30, 255, 0); */
     margin-top: 1rem;
 }
-#maintext h1{
+
+#maintext h1 {
     /* border: 1px solid rgb(30, 255, 0); */
     margin-top: 1rem;
     font-size: 30px;
@@ -100,7 +101,8 @@
     justify-content: space-between;
     /* border: 1px solid red; */
 }
-#mainblog a{
+
+#mainblog a {
     width: auto;
     text-decoration: none;
     color: #000000;
@@ -125,12 +127,13 @@
     justify-content: center;
     align-items: end;
 }
+
 #mainblog a :hover {
     transform: scale(1.05, 1.05);
     transition: all 0.2s ease-out;
 }
 
-#mainblog .blogname{
+#mainblog .blogname {
     /* border: 1px solid red; */
     border-radius: 15px;
     width: 14rem;
@@ -140,9 +143,10 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.7);
-    
+
 }
-#mainblog .blogname h1{
+
+#mainblog .blogname h1 {
     padding-top: 10px;
     font-size: 24px;
     font-weight: bold;
@@ -177,4 +181,123 @@
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+
+/* Marketing Articles/////////////////////////////////////////////////////////////////////////////////////// */
+
+
+#market {
+    /* border: 1px solid red; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#market .row {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+#market .card {
+    padding-bottom: 5px;
+    margin: 10px;
+    width: 24rem;
+    height: 32rem;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgb(47, 50, 125, 0.3);
+    /* border: 1px solid red; */
+}
+
+#market .card-img-top {
+    margin-top: 1rem;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+#market .timeupload {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+#market .timeupload span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #696984;
+    font-style: normal;
+    font-weight: 700;
+
+    /* border: 1px solid red; */
+}
+
+#market .timeupload i {
+    font-size: 24px;
+    color: #696984;
+    /* border: 1px solid red; */
+}
+
+#market .card-body {
+    height: 5rem;
+    /* border: 1px solid red; */
+}
+
+#market .card-body .card-title {
+    color: #252641;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    /* border: 1px solid red; */
+}
+
+#market .card-body .card-text {
+    color: #696984;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    /* 32.4px */
+    letter-spacing: 0.36px;
+    /* border: 1px solid red; */
+}
+
+#market .cardfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+#market .cardfooter .id {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+#market .cardfooter .id img {
+    border-radius: 100%;
+}
+
+#market .cardfooter .visitcount{
+    color: #4393F0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+#market .cardfooter .visitcount span{
+    color: #696984;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
