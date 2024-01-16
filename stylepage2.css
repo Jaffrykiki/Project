@@ -311,7 +311,7 @@
 }
 
 .box .group {
-    position: fixed;
+    position: relative;
     width: 1920px;
     height: 1268px;
     top: 0;
@@ -462,7 +462,7 @@
     height: 382px;
     top: 0;
     left: 0;
-    background-image: url(./img/rectangle-87.webp);
+    background-image: url(./image/rectangle-87.webp);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -553,7 +553,7 @@
     left: 57px;
     background-color: #d9d9d9;
     border-radius: 60px;
-    background-image: url(./img/rectangle-86.webp);
+    background-image: url(./image/rectangle-86.webp);
     background-size: 100% 100%;
 }
 
@@ -584,7 +584,7 @@
     height: 392px;
     top: 0;
     left: 0;
-    background-image: url(./img/rectangle-86.webp);
+    background-image: url(./image/rectangle-86.webp);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -648,7 +648,7 @@
     left: 57px;
     background-color: #d9d9d9;
     border-radius: 60px;
-    background-image: url(./img/rectangle-86.webp);
+    background-image: url(./image/rectangle-86.webp);
     background-size: 100% 100%;
 }
 
